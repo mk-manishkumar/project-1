@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.navbar-container{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    list-style-type: none;
+    margin-top: 2%;
+}
+
+.list-item{
+    display: inline;
+    padding: 25px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.list :first-child{
+    font-weight: 800;
+}
+
+.button-group{
+    display: flex;
+}
+
+.nav-button{
+    border: 2px solid #000;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 5px 26px;
+    margin-left: 10%;
+    font-size: 1.3rem;
+}
+
+.hero-container{
+    margin-top: 3%;
+}
+
+.hero img{
+    width: 30%;
+    position: relative;
+    top: 50px;
+}
+
+.square img{
+    width: 20%;
+    position: absolute;
+    top: 420px;
+    left: 280px;
+    z-index: -1;
+}
+
+.star img{
+    width: 3%;
+    position: absolute;
+    left: 630px;
+    top: 650px;
+}
+
+.globe img{
+    width: 4%;
+    position: absolute;
+    left: 800px;
+}
+
+.hero-container-right{
+    position: absolute;
+    left: 700px;
+    bottom: 200px;
+    text-align: center;
+}
+
+.hero-heading{
+    font-size: 4rem;
+    width: 100%;
+}
+
+.hero-description{
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.button-email{
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 1px 30px;
+    font-size: 1.3rem;
+    color: gray;
+    font-weight: 500;
+    position: relative;
+    top: 100px;
+}
+
+.button-join{
+    background-color: #000;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 3%;
+    position: relative;
+    top: 100px;
+}
+
+.contact-heading{
+    color: gray;
+    font-size: 1.3rem;
+    position: relative;
+    top: 140px;
+}
+
+.icons{
+    position: relative;
+    top: 160px;
+}
+
+.icons img{
+    width: 4%;
+    margin-left: 3%;
+}
